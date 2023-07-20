@@ -1,6 +1,7 @@
 import react from 'react';
 import Header from './Header.js';
 import Banner from './Banner.js';
+import Client from './Client.js';
 import measuring from '../images/measuring-tape.png';
 import store from '../images/store.png';
 import suit from '../images/suit.png';
@@ -16,6 +17,8 @@ import work2 from '../images/work2.webp';
 import work3 from '../images/work3.webp';
 import work4 from '../images/work4.webp';
 import work5 from '../images/work5.webp';
+import area1 from '../images/area1.webp';
+import area2 from '../images/area2.webp';
 
 
 export default function Home() {
@@ -444,6 +447,53 @@ return(
                 </div>
             </div>
         </div>
+    </div>
+</section>
+<section  className="home-section-7" id="section-a7">
+    <div class="working_area">
+        <div class="area_row">
+            <div class="row">
+                <div className="choose_col col-sm-6">
+                    <div className="eduvibe-animated-image-type-one circle-two">
+                        <div class="area_bfr">
+                            <img decoding="async" src={area1} />
+                        </div>
+                        <div className="area_name">Office Area</div>
+                        <div className="circle-image">
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div className="eduvibe-video-popup-content">
+                            <a className="eduvibe-video-popup-icon video-img" href="http://roopnandini.com/wp-content/uploads/2023/07/sir.mp4">
+                                <i className="fa-solid fa-play"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                 <div className="choose_col col-sm-6">
+                    <div className="eduvibe-animated-image-type-one circle-two">
+                        <div class="area_bfr">
+                            <img decoding="async" src={area2} /> 
+                        </div>
+                        <div className="area_name">About Dying And Printing</div>
+                        <div className="circle-image">
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div className="eduvibe-video-popup-content">
+                            <a className="eduvibe-video-popup-icon video-img" href="http://roopnandini.com/wp-content/uploads/2023/07/sir.mp4">
+                                <i className="fa-solid fa-play"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section  className="home-section-8" id="section-a8">
+    <div class="our_clients">
+        <Client />
     </div>
 </section>
 </>
