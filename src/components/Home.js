@@ -1,6 +1,7 @@
 import react from 'react';
 import Header from './Header.js';
 import Banner from './Banner.js';
+import Footer from './Footer.js';
 import Client from './Client.js';
 import measuring from '../images/measuring-tape.png';
 import store from '../images/store.png';
@@ -491,11 +492,79 @@ return(
         </div>
     </div>
 </section>
+{/*************  Testimonials **********/} 
 <section  className="home-section-8" id="section-a8">
     <div class="our_clients">
+        <div className="work_heading">
+            <div className="choose_heading">
+                TESTIMONIALS
+            </div>
+            <div className="choose_sub_heading">
+                Our Clients Feedback
+            </div>
+        </div>
         <Client />
     </div>
 </section>
+<section className="home-section-9" id="section-a9">
+    <div class="explore">
+        <div className="explore_heading">
+            <h2 className="explore_main_heading">
+                We believe Quality is not an act it is a habit
+            </h2>
+            <div className="explore_sub_heading">
+                Explore the most loved and shopped ensembles
+            </div>
+        </div>
+        <div class="row explore_row">
+            <div class="col-sm-3">
+                <img src={work1}/>
+                <div class="explore_icon">
+                    <h3>
+                        <a href="#">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </h3>
+                    <p class="shop_now">Shop Now</p>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <img src={work2}/>
+                <div class="explore_icon">
+                    <h3>
+                        <a href="#">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </h3>
+                    <p class="shop_now">Shop Now</p>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <img src={work3}/>
+                <div class="explore_icon">
+                    <h3>
+                        <a href="#">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </h3>
+                    <p class="shop_now">Shop Now</p>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <img src={work4}/>
+                <div class="explore_icon">
+                    <h3>
+                        <a href="#">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </h3>
+                    <p class="shop_now">Shop Now</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<Footer />
 </>
 	);
 }
